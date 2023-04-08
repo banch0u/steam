@@ -16,4 +16,12 @@ const DownloadIcon = () => {
     </svg>
   );
 };
-export { DownloadIcon };
+const SearchIcon = () => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="4.5 4.5 16 16">
+      <circle cx="11" cy="11" r="6" stroke="#222222" />
+      <path d="M20 20L17 17" stroke="#222222" stroke-linecap="round" />
+    </svg>
+  );
+};
+export { DownloadIcon, SearchIcon };
